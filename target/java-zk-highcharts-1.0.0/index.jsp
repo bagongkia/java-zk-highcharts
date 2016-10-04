@@ -5,9 +5,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Integrating Java Highcharts</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.11.1.js"></script>
+        <script src="js/highcharts.js"></script>
+        <script src="js/highcharts-more.js"></script>
+        <script src="js/exporting.js"></script>
+        <script src="js/offline-exporting.js"></script>
+        <script src="js/drilldown.js"></script>
+        <script src="js/solid-gauge.js"></script>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1 align="center">Java-Highcharts</h1>
+        <jsp:include page="page/chart001.zul"/>
     </body>
 </html>
